@@ -1,0 +1,344 @@
+     
+    .nav_lists{
+        background-color: #e8ecf1;
+
+    }
+    .nav_lists a{
+            color: black;
+            margin-left: 80px;
+            font-size: 12px;
+            padding-left: 1px;
+            padding-right: 1px;
+
+    }
+        .item {
+            width: 145px;
+            height: 100px;
+            background-color: #e8ecf1;
+            border: 1px solid rgb(224, 224, 224);
+            margin: 40px;
+            font-size: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            padding: 10px;
+            flex-direction: column; 
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+        
+        }
+
+        p {
+            font-size: 20px;
+            margin: 5px;
+            text-align: center; 
+        }
+
+        nav {
+            align-items: center; 
+            display: flex;
+         
+        }  
+
+        nav a {
+            color: black;
+            text-align: center;
+            padding: 16px 16px;
+            text-decoration: none;
+        }
+
+        nav #kapitalbank-link {
+            float: left;
+            margin-right: auto;
+        }
+
+        nav a:not(#kapitalbank-link) {
+            float: right;
+            /* margin-right: 80px; */
+        }
+
+        .search {
+            float: right;
+            width: 24px;
+            height: 24px;
+            padding: 16px 16px;
+            margin-right: 80px;
+        }
+
+        .logo {
+            float: left;
+            width: 30px;
+            height: 30px;
+            padding: 16px 16px;
+            margin-left: 80px;
+
+        }
+
+       
+
+        .container0 {
+            background-color: #e8ecf1;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 50vh;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            /* margin-left: 50px;
+            margin-right: 50px; */
+
+        }
+
+        .logo2 {
+            float: left;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            width: 250px; 
+            height: 250px; 
+             margin-left: 200px;
+        }
+        .textcontainer{
+            display: block;  
+            font-size: 32px;
+            margin-top: 2px;
+            margin-bottom: 2px; 
+           
+
+        }
+
+        .text-container {
+            float: left;
+            display: flex;
+            flex-direction: column; 
+            margin-top: 50px;
+            margin-right: 200px;
+            
+      }
+        .container{
+            margin-left: 50px;
+            margin-right: 50px;
+
+        }
+        .paragraff{
+            display: block;
+            font-size: 16px;
+            color: black;
+            font-family: sans-serif;
+            width: 700px;
+            margin-top: 10px;
+            margin-bottom: 80px;
+            margin-left: 80px;
+            margin-right: 50px;
+        }
+    
+        .buttonfirst {
+            font-size: 20px;
+            font-weight: 600;
+            border: 2px solid #f45369;
+            padding: auto 7px;
+            border-radius: 5px;
+            width: 280px;
+            height: 50px;
+            text-align: center;
+            cursor: pointer;
+            background-color: #f45369;
+            color: white;
+            margin-bottom: 50px;
+        }
+        .cardsection{
+            background-color: #e8ecf1;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 300px;
+            margin-top: 50px;
+            margin-bottom: 50px;
+        
+        }
+        .cardstext{
+            display: flex;
+        }
+        .cardsimg{
+            float: right;
+            margin-top: 20px;
+            margin-bottom: 200px;
+            margin-left: 100px;  
+        }
+        .cardsbutton{
+            float: left;
+            margin-top: -128px;    
+            margin-left: 170px;
+            font-size: 20px;
+            font-weight: 600;
+            border: 2px solid #f45369;
+            padding: auto 7px;
+            border-radius: 5px;
+            width: 280px;
+            height: 50px;
+            text-align: center;
+            cursor: pointer;
+            background-color: #f45369;
+            color: white;
+        }
+        .block{
+            display: block; 
+            margin-top: 10px;
+            margin-bottom: 2px; 
+            margin-right: 50px;
+        }
+
+        .paragraff_two{
+            display: block;
+            font-size: 16px;
+            color: black;
+            font-family: sans-serif;
+            width: 700px;
+            margin-top: 5px;
+            margin-bottom: 50px;
+            margin-left: 600px;
+            margin-right: 50px;
+        }
+
+        .moneysection{
+            background-color: #e8ecf1;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 300px;
+            margin-top: 50px;
+            margin-bottom: 50px;
+
+        }
+
+        .moneyimg{
+            float: left;
+            margin-top: 20px;
+            margin-bottom: 150px;
+            margin-right: 200px; 
+            margin-left: 10px; 
+
+        }
+
+        .moneytext{
+            display: flex;
+        }
+        .moneybutton{
+            float: right;
+            margin-top: -120px;
+            margin-right: 441px;
+            font-size: 14px;
+            font-weight: 600;
+            border: 2px solid #f45369;
+            padding: auto 7px;
+            border-radius: 5px;
+            width: 166px;
+            height: 40px;
+            text-align: center;
+            cursor: pointer;
+            background-color: #f45369;
+            color: white;
+            border-radius: 5px;
+            width: 280px;
+            height: 50px;
+        }
+
+        .subclass{
+            display: flex;
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background-color: #f1f1f1;
+            border: 1px solid #ccc;
+            padding: 20px;
+        
+    
+            
+          }
+          .subclass_first{
+            display: flex;
+        width: 800px;
+        height: 203px;
+        margin-right: 100px;
+        margin-left: 50px;
+          }
+          .sub{
+            display:block;
+            margin-top: 15px;
+            margin-right: 50px;
+          }
+          .subclass_second{
+            background-color: #e8ecf1;
+            display: flex;
+            width: 768px;
+            height: 220px;
+    
+            padding-left: 20px;
+          }
+          .subclasstext{
+            display: flex;
+          }
+          .subclassimg{
+        margin-left: 50px;
+        height: 220px;
+            }
+    
+            .subclassbutton{
+         float: left;
+        margin-top: 30px;
+        font-size: 20px;
+        border: 2px solid #f45369;
+        border-radius: 5px;
+        width: 200px;
+        height: 50px;
+        text-align: center;
+        cursor: pointer;
+        background-color: #f45369;
+        color: white;
+            }
+
+            .hover:hover .subclass {
+                display: flex;
+            }
+
+            .hover{
+               
+                    position: relative;
+                
+            }
+    .calculator_section_button{
+        margin-left: 80px;
+    }
+
+    .calculatorbutton_first{
+    margin-right: 14px;
+    border-radius: 37px;
+    border: #f45369;
+    padding: 6px 25px 8px;
+    font-size: 16px;
+    color: #e8ecf1;
+    background-color: #f45369;
+    cursor: pointer;
+    }
+
+    .calculatorbutton{
+        margin-right: 14px;
+        border-radius: 37px;
+        border: #e8ecf1;
+        padding: 6px 25px 8px;
+        font-size: 16px;
+        color: black;
+        background-color: #e8ecf1;
+        cursor: pointer;
+        }
+    
+
+        
