@@ -1,83 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="./style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <br />
-    <br />
-    <br />
-
-    <nav class="navMain relative">
-      <div class="navbar container">
-        <ul class="navbar__ul">
-          <li class="navbar__li">
-            <span> Kartlar </span>
-
-            <div class="hiddenSection">
-              <div class="hiddenSection__main">
-                   <div class="container hiddenSectionFlex">
-                    <div class="hiddenSection__item">
-                      <div class="hiddenSection__ulWrapper">
-                        <ul class="hidddenSection__ul">
-                          <li>taksit kartlar</li>
-                          <li>debet kartlar</li>
-                          <li>hediyye kartlar</li>
-                        </ul>
-
-                        <ul class="hidddenSection__ul">
-                          <li>tehlukesizlik kartlari</li>
-                          <li>3d security</li>
-                          <li>kart sifarishi</li>
-                        </ul>
-                      </div>
-                    </div>
-                    <div class="hiddenSection__item hiddenSection__item_little">
-                
-                      <div class="hiddenBirbanWrapper">
-                        <div class="hiddenBirbanWrapper__part">
-                          <div>
-                            <h2 class="hiddenBirbanWrapper__heading">
-                              Birbank Cashback taksit
-                            </h2>
-                            <p class="hiddenBirbanWrapper__text">
-                              Kartla edilən nağdsız ödənişlərə minimum 1.5%-dən başlayan keşbek, faizsiz və komissiyasız taksit imkanı verən unikal bir kartdır.
-                            </p>
-                           </div>
-                           <button class="hiddenBirbanWrapper__burron">
-                            Bir klikle sifarish et
-                           </button>
-                        </div>
-                        <img width="125px" src="./assets/birbank.png" alt="nirbank">
-                      </div>
-                    </div>
-                  </div>
-               </div>
-            </div>
-          </li>
-
-          <li class="navbar__li">Kreditler</li>
-
-          <li class="navbar__li">Ipoteklar</li>
-
-          <li class="navbar__li">Depositler</li>
-          <li class="navbar__li">Pul kochurmeleri</li>
-          <li class="navbar__li">Online Xidmetler</li>
-          <li class="navbar__li">Kompaniyalar</li>
-          <li class="navbar__li">Ferdi Bankchiliq</li>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kapital Bank / Birinci Bank</title>
+    <link rel="icon" type="image/png" sizes="16x16" href="https://www.kapitalbank.az/images/favicon/favicon-16x16.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <img type="image/svg+xml" class="w-100" src="https://www.kapitalbank.az/assets/static/img/content/elements/svg/kb-logo-main.svg" alt="Kapital Bank">
+        <ul class="headerlist">
+           <li id="boldheader">Fiziki şəxlər üçün </li>
+           <li>Biznes üçün </li> 
+           <li>Xidmət şəbəkəsi </li> 
+           <li> EN </li>
+           <li> RU </li>  
         </ul>
+    </div>
+                                 <!-- NAVBAR AND HIDDEN SECTIONS -->
+    <div class="navbar">
+        <div class="container">
+            <div class=wrapper>
+                <ul>
+                <li class="kartlar">Kartlar </li>
+                <div class="hidsection">
+                    <div class="listwrapper">
+                   <div class="list1">
+                    <li>Taksit kartlar</li>
+                    <li>Debet kartlar</li>
+                    <li>Hədiyyə kartı</li>
+                    <li>Kartlar üzrə xidmətlər</li>
+                </div>
+                <div class="list2">
+                    <li>Təhlükəsizlik qaydaları</li>
+                    <li>3D secure</li>
+                    <li>Kart sifarişi</li>
+                    <li>Birbank kartının eyniləşdirilməsi</li>
+                </div>
+                </div>
+                                   <!-- CASHBACK CONTAINER -->
+                <div class="cashbackcontainer">
+                    <div>
+                        <h1 id="birbank_text"> Birbank Cashback Taksit </h1>
+                        <br>
+                    <p id="cashback_text">
+                        Kartla edilən nağdsız ödənişlərə minimum 1.5%-dən başlayan keşbek, 
+                        faizsiz və komissiyasız taksit imkanı verən unikal bir kartdır.</p>
+                        <br>
+                        <button class="birklik_btn">Bir Kliklə sifariş et</button>
+                    </div>
+                <img class="birkart" src="assets/birbank-cashback-debet1656680037.png"alt="birkart">
+            </div>
+            </div>
 
-        <button class="navbar__button">birbank</use> </svg></button>
-      </div>
-    </nav>
-  </body>
+                <li>Kreditlər</li>
+                <li>İpotekalar</li>
+                <li>Depozitlər</li>
+                <li>Pul Köçürmələri</li>
+                <li>Onlayn xidmətlər</li>
+                <li>Kampaniyalar</li>
+                <li>Fərdi Bankçılıq</li>
+            </ul>
+            <button class="birbank">
+                    <img src="assets/download-removebg-preview (17).png" alt="birbank" width="30px"height="30px">
+                <span>birbank</span>
+                
+            </button>
+        </div>
+        </div>
+        </div>
+                                <!-- SECTION  -->
+     <div class="kapital_section"> 
+     <div class="">
+        <div class="banner_text">
+        <h1> Karyera imkanları </h1>
+        <p> “Kapital Bank Life” səhifəmizdə!</p>
+        <button class="daha_btn"><a href="https://bit.ly/3tmYzDH">Daha ətraflı</a></button>
+    </div>
+</div>
+    </div>
+
+</body>
 </html>

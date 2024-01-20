@@ -1,183 +1,157 @@
-.navbar__button{
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,602;1,602&display=swap');
 
+
+
+
+* {
+    margin:0;
+    padding:0;
 }
-*{
-    box-sizing: border-box;
-}
-body{
-    /* background-color: #ebeaea; */
-}
-.navbar__ul{
-    display: flex;
-    list-style: none;
-    padding: 0;
-    font-family: 'Source Sans 3', sans-serif;
-    height: 100%;
-}
-
-.navbar__li + .navbar__li{
-margin-left: 10px;
-
-}
-.navbar__li{
-cursor: pointer;
-font-family: 'Source Sans 3', sans-serif;
-font-weight: 400;
-color: #2e3131;
-font-size: 14px;
-height: 100%;
- display: flex;
-align-items: center;
-border-bottom: 2px solid transparent;
-}
-
-
-
-
-
-.navbar__li:hover{
-border-bottom: 2px solid #f45369;
-    }
-
-
-
-
-
-
-
-
-
-
-.navbar{
-    display: flex;
+.header{
+    display:flex;
     justify-content: space-between;
- align-items: center;
- 
-height: 66px;
-align-items: center;
-}
-
-
-.relative{
-position: relative;
-}
-.container{
-    width: 80%;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-.navMain{
-    background: #e8ecf1;
-    font-family: 'Source Sans 3', sans-serif;
- }
-
-.hiddenSection{
-    position: absolute;
-width: 100%;
- 
-left: 0;
-display: none;
-
-top: 66px;
-left: 0;
-filter: drop-shadow(0 30px 53px rgba(0, 0, 0, .07));
-background: white;
-
-
-}
-
-.hiddenSection__main{
-     display: flex;
-    justify-content: space-between;
-}
-
-
-.hiddenSection__item_little{
-    background: #f6f8fb;
-    width: 560px;
- display: flex;
- justify-content: space-between;
-padding: 30px;
-
-}
-.hiddenBirbanWrapper{
-    display: flex;
-    justify-content: space-between;
-}
-.hiddenBirbanWrapper__text{
-    font-size: 14px;
-}
-.hiddenBirbanWrapper__heading{
-    font-size: 24px;
-    font-weight: bold;
-}
-.hiddenBirbanWrapper__part{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-
-}
-.hiddenBirbanWrapper__burron{
-    width: 280px;
-    background-color: #f45369;
-    border-radius: 8px;
-    display: inline-block;
-    padding: 11px 20px 14px;
-    font-size: 24px;
-    color: #fff !important;
-    line-height: 30px;
-    text-align: center;
-    border: none;
+    margin-top: 10px;
+    align-items:center;
     cursor: pointer;
-    transition: .3s linear;
 }
-
-.hiddenSection__ulWrapper{
+.headerlist {
+    font-family: sans-serif;
     display: flex;
-padding-top: 40px;
-}
-
-.hidddenSection__ul{
-    padding: 0;
+    font-size:15px;
     list-style: none;
-
+    margin-right:100px;
+}
+.headerlist li {
+   padding-left:20px;
+}
+.headerlist li:hover {
+    color:#f45369;
+    transition: 0.5s;
+}
+#boldheader {
+    font-weight:bold;
+}
+.navbar {
+    margin-top:20px;
+    background-color:rgba(238, 233, 233, 0.894);
+    font-family: sans-serif;
+    font-size:20px;
+    padding:10px;
+    position:relative;
 }
 
-
-.hidddenSection__ul li{
-    margin-top: 5px;
-    margin-bottom: 5px;
+.container {
+    width:90%;
 }
-.hidddenSection__ul li:hover{
-color: #f45369;
+.wrapper {
+    display:flex;
+    font-size:15px;
+    align-items:center;
+    padding-left:5px;
 }
-
-.hidddenSection__ul + .hidddenSection__ul{
-    margin-left: 60px;
+.navbar ul {
+display:flex;
+list-style: none;
 }
-
-.hiddenSectionFlex{
+.navbar ul li {
+    padding-left:30px;
+    margin-left:10px;
+    cursor: pointer;
+}
+.navbar ul li:hover {
+    color:#f45369;
+    transition: 0.5s;
+}
+.birbank {
+    background-color:#f45369;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    padding:2px 10px;
+    padding-right:15px;
+    border-radius: 20px;
+    margin-left:140px;
+    cursor:pointer;
+}
+.birbank:hover {
+    background-color: red;
+    transition:0.5s;
+}
+.birbank span {
+    color:white;
+}
+.hidsection {
+    display:flex;
+    justify-content: space-between;
+    position:absolute;
+    top:58px;
+    right:0px;
+    align-items: center;
+    background-color:white;
+    width:100%;
+    height:250px;
+    display:none;
+}
+.kartlar:hover~.hidsection {
+    display:flex;
+}
+.listwrapper {
+    display: flex;
+    width:55%;
+    align-items:center;
+    font-size: 17px;
+    font-family:'Source Sans 3';
+    font-weight:600px;
+    padding-bottom:60px;
+    padding-left:20px;
+}
+.list2 {
+    margin-left:30px;
+}
+.birkart {
+    width: 130px;
+    height:200px;
+    margin-right: 90px;
+}
+.cashbackcontainer{
     display: flex;
     justify-content: space-between;
- }
-
- .navbar__li:hover .hiddenSection{
-display: block;
- }
-
-
- .navbar__button{
+    width:45%;
+    background-color: #f4f4f4;
+    padding-top:24px;
+    padding-bottom:24px;
+    padding-left:20px;
+}
+#cashback_text {
+    width:250px;
+    margin-top:15px;
+}
+#birbank_text{
+    font-size:25px;
+    margin-top:15px;
+}
+.birklik_btn {
     background-color: #f45369;
-    border-radius: 8px;
-    font-size: 16px;
-    color: #fff;
-    text-align: center;
-    border: none;
-    cursor: pointer;
-    transition: .3s linear;
-    font-weight: 700;
-    width: 95px;
-    height: 43px;
- }
-
+    color:white;
+    font-weight:50px;
+    align-items: center;
+    border-radius: 10px;
+    padding:10px;
+    font-size:15px;
+    margin-left:120px;
+    font-family:'Source-Sans 3';
+    border-style:none;
+}
+.kapital_section {
+    margin-top:4px;
+    width:100%;
+    height:450px;
+    background-color:rgba(238, 233, 233, 0.894);
+}
+.banner_text{
+    align-items: center;
+}
+.banner_text h1 {
+    font-size:30px;
+    font-weight: 10px;
+}
