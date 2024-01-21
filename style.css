@@ -38,30 +38,24 @@
     font-family: sans-serif;
     font-size:20px;
     padding:10px;
-    position:relative;
 }
 
 .container {
-    width:90%;
+    width:100%;
 }
 .wrapper {
     display:flex;
-    font-size:15px;
+    justify-content: space-between;
+    font-size:14px;
     align-items:center;
-    padding-left:5px;
 }
 .navbar ul {
 display:flex;
 list-style: none;
 }
 .navbar ul li {
-    padding-left:30px;
-    margin-left:10px;
+    margin-left:50px;
     cursor: pointer;
-}
-.navbar ul li:hover {
-    color:#f45369;
-    transition: 0.5s;
 }
 .birbank {
     background-color:#f45369;
@@ -69,32 +63,34 @@ list-style: none;
     justify-content: center;
     align-items:center;
     padding:2px 10px;
+    margin-right:70px;
     padding-right:15px;
     border-radius: 20px;
-    margin-left:120px;
     cursor:pointer;
     transition:0.3s ease-in-out;
     border-style: none;
 }
 .birbank:hover {
-    background-color:#c7263b;
+    background-color:#d2273e;
 }
 .birbank span {
     color:white;
 }
 .hidsection {
     justify-content: space-between;
-    position:absolute;
-    top:58px;
+    margin-top:33px;
     right:0px;
     align-items: center;
     background-color:white;
     width:100%;
     height:250px;
     display:none;
+    position:absolute;
 }
 .kartlar:hover ~ .hidsection {
     display:flex;
+    position:absolute;
+    z-index:5;
 }
 .listwrapper {
     display: flex;
@@ -105,6 +101,8 @@ list-style: none;
     font-weight:600px;
     padding-bottom:60px;
     padding-left:20px;
+    margin-top:60px;
+    margin-left:0px;
 }
 .list2 {
     margin-left:30px;
@@ -192,8 +190,8 @@ list-style: none;
     height:450px;
 }
 .banner_logo img {
-    width:460px;
-    height:289px;
+    width:500px;
+    height:329px;
     padding-top:70px;
     padding-left:40px;
     transition:transform,0.5s;
@@ -418,3 +416,88 @@ list-style: none;
     position:absolute;
     margin-bottom:300px;
 }
+.calc_container {
+    display:flex;
+}
+.range_container {
+    width:60%;
+    height:500px;
+    padding-left:90px;
+    padding-top:30px;
+}
+.range_container h2 {
+    font-size: 38px;
+    color:black;
+    font-family: Helvetica;
+}
+.calc_btn button:hover {
+    color:white;
+    background-color:#f45369;
+    transition:0.3s;
+    cursor:pointer;
+}
+.calc_btn button {
+    font-size:15px;
+    padding:12px 27px;
+    text-decoration: none;
+    background-color: #e8ecf1;
+    color:black;
+    font-family:Helvetica;
+    border-style: none;
+    border-radius:15px;
+    margin-right:30px;
+}
+.calc_content {
+    font-family: Helvetica;
+}
+.calc_content p1 {
+    font-size:27px;
+}
+#calctext {
+width:600px;
+height:60px;
+}
+.calc_label {
+    position: relative;
+    border-radius:40%;
+}
+#calc_range {
+    width:600px;
+    height:1px;
+    position:absolute;
+    margin-top:60px;
+    left:0;
+    background:transparent;
+    appearance: none;
+    background-color:black;
+    cursor:pointer;
+}
+.calc_num {
+    width:40%;
+    height:500px;
+}
+.calc_bg {
+    width:381px;
+    height:331px;
+    background-color:white;
+    margin-top:200px;
+    margin-left:50px;
+    text-align: center;
+    padding-top:40px;
+    box-shadow:0 5px 15px hsla(0, 0%, 80%, .45);
+    font-family:Helvetica;
+}
+.calc_bg p {
+    font-weight:200;
+    font-size:25px;
+}
+.calc_bg span {
+    font-size: 50px;
+    color:#f45369;
+    font-weight: 600;
+}
+.calc_label span {
+    width:100%;
+    justify-content: space-between;
+}
+
