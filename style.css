@@ -181,3 +181,100 @@ display: block;
     height: 43px;
  }
 
+
+ .edv{
+    background-color: #e9ecf0;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    margin-top: 10px;
+ }
+
+ .generalHeading{
+    font-size: 36px;
+    line-height: 45px;
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 400;
+    margin-bottom: 14px;
+
+ }
+
+ .generalHeading__bold{
+    font-weight: 600;
+ }
+
+ .generalText{
+    font-size: 18px;
+    line-height: 23px;
+    max-width: 580px;
+    margin-bottom: 40px;
+    font-family: 'Source Sans 3', sans-serif;
+ }
+
+
+ .edv__imageWrapper{
+    width: 200px;
+    height: 130px;
+    position: relative;
+ }
+.edv__image{
+    position: absolute;
+    top: -166px;
+    left: 71px;
+}
+
+.edv__image_money{
+    left: -300px;
+}
+
+ .edv__aligned{
+    display: flex;
+    
+ }
+.edv__aligned_end{
+    justify-content: flex-end;
+ }
+
+ .edv__redText{
+     color: #f45369;
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 28px;
+    line-height: 35px;
+    margin-bottom: 5px;
+    font-weight: 500;
+ }
+ .edv__bottomText{
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'Source Sans 3', sans-serif;
+ 
+ }
+
+ .edv__centerItem{
+    margin-right: 80px;
+    margin-left: 80px;
+ }
+
+ .edv__button{
+    font-family: 'Source Sans 3', sans-serif;
+    width: 280px;
+    background-color: #f45369;
+    border-radius: 8px;
+    display: inline-block;
+    padding: 11px 20px 14px;
+    font-size: 24px;
+    color: #fff !important;
+    line-height: 30px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    transition: .3s linear;
+ }
+
+ .mr_negdPul{
+    padding-left: 666px;
+ }
+
+ .buttonWrapper{
+    display: flex;
+    justify-content: flex-end;
+ }
