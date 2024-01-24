@@ -278,3 +278,74 @@ display: block;
     display: flex;
     justify-content: flex-end;
  }
+ .karyera__blue{
+    background: rgb(124, 124, 255);
+}
+
+ .karyera{
+    background: #e8ecf1;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 2px;
+ }
+
+
+
+
+
+
+
+
+
+
+
+ .karyera__aligner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+ .karyera__image{
+    width: 460px;
+ }
+
+.karyera__text{
+    letter-spacing: .793699px;
+    line-height: 46px !important;
+    font-size: 34px !important;
+    font-family: 'Source Sans 3', sans-serif;
+    margin-top: 0;
+    font-weight: 500;
+
+}
+
+.karyera__heading{
+    letter-spacing: .793699px;
+    line-height: 46px !important;
+    font-size: 34px !important;
+    font-family: 'Source Sans 3', sans-serif;
+    margin-bottom: 13px;
+    margin-top: 0;
+}
+.karyera__button{
+    width: 280px;
+    background-color: #f45369;
+    border-radius: 8px;
+    display: inline-block;
+    padding: 11px 20px 14px;
+    font-size: 24px;
+    color: #fff !important;
+    line-height: 30px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    transition: .3s linear;
+}
+
+.karyera__button:hover{
+     background-color: #ee2540;
+ 
+}
+
+
+ 
