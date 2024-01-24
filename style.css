@@ -21,6 +21,7 @@ width: 150px;
 height: 50px;
 padding-top: 30px;
 position: absolute;
+left: 110;
 
 }
 .a1{
@@ -238,6 +239,17 @@ padding-top: 40px;
 
 }
 
+.hiddenİmage_money{
+    width: 230px;
+    height: 200px;
+}
+.Hiddenİmage_depozit{
+    width: 250px;
+    height: 200px;
+}
+.hiddenBb_logo{
+    width: 200px;
+}
 
 .hidddenSection__ul li{
     margin-top: 5px;
@@ -391,7 +403,7 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding-bottom: 15px;
 }
 
-.container_cashback{ 
+ .container_cashback{
      width: 80%;
     margin-left: auto;
     margin-right: auto;
@@ -399,13 +411,7 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 
 .content_cashback{
-
     margin-top: 50px;
-    width: 2000px;
-    height: 340px;
-    background-color:#ffffff;
-    position: absolute;
-
 }
 .h_cashback{
     margin-left: 60px;
@@ -425,13 +431,17 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 25px;
 }
 .item{
-    width: 100%;
+    width: 100%; 
     height: 200px;
     padding-left: 60px;
-    background-color:#e8ecf1;
     display: flex;
     flex-direction: row;
     
+}
+
+.itemwrapper{
+    background-color:#e8ecf1;
+
 }
 .item1{
     width: 350px;
@@ -472,21 +482,16 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     border-radius: 8px;
     font-size: 24px;
     position: relative;
-    left: 55px;
-    margin-top: -80px;
+    right: -190px;
+    bottom: 30px
+    
 }
 
+.creditWrapper{
+    margin-top: -40px;
+    background-color:#e8ecf1;
+}
 
-.container_credit{
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-}
-.content_credit{
-    height: 340px;
-    background-color:#ffffff;
-    margin-top: 500px;
-}
 .h_credit{
     font-size: 35px;
     color: #2e3131;
@@ -501,7 +506,7 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .item_credit{
     width: 100% ;
-    height: 200px;
+    height: 255px;
     background-color:#e8ecf1;
     display: flex;
     flex-direction: row;
@@ -541,8 +546,8 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     border-radius: 8px;
     font-size: 24px;
     position: relative;
-    left: 800px;
-    top: -70px;
+    left: 852px;
+    top: 183px
 }
 .image_credit{
     width: 450px;
